@@ -1,12 +1,3 @@
-Link to view website
+Link to view website   http://students.csci.unt.edu/~sk0732/
 
-http://students.csci.unt.edu/~sk0732/
-
-
-
-Winscp 
-
-Hostname: cse01.cse.unt.edu
-
-Login: username: sk0732
-	password: Kchinni92$
+As this website is placed in University of North Texas(UNT) server there is no access outside of UNT network. The screenshots folder shows the entire website and database structures.
