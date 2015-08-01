@@ -1,0 +1,35 @@
+<?php     
+Include('connect.php');
+if (isset($_POST['submit']) ){
+
+        $name = $_POST['Name'];
+        $from = $_POST['From'];
+		   $email = $_POST['Email'];
+		    $to = $_POST['To'];
+		   $phone= $_POST['Phone'];
+		    $time= $_POST['Time'];
+			$date= $_POST['Date'];
+			$trip= $_POST['Trip'];
+			$npassenger= $_POST['Passengers'];
+			
+	
+  $sql= "INSERT INTO users (username, password, first_name, last_name, email) VALUES ('$username', '$password', '$first_name','$last_name', '$email')";
+        $result = mysql_query($sql);
+       if($result){
+
+            echo "User Created Successfully.";
+		header('Location:login1.html');
+
+        }
+		else{
+			echo "failure!";
+		}
+    }
+	else
+	{
+		echo "<b>user already exists <a href=register1.html><x>click here to register</x></a></b>";
+	}
+
+}
+}
+?>
